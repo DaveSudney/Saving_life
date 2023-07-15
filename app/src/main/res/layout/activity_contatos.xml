@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Contatos">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="60dp"
+        >
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/florian_polis"
+                android:textColor="@color/crysle_rred"
+                android:layout_marginStart="10dp"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="@string/hemocentro_coordenador"
+                android:textColor="@color/crysler"
+                android:textSize="18sp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_margin="16dp"
+                android:src="@drawable/floripa_img"
+                android:contentDescription="@string/app_name"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/telefone"
+                android:textStyle="bold"
+                android:textColor="@color/crysle_rred"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_48_3251_9702"
+                android:textColor="#AAAAAA"
+                android:layout_marginStart="10dp"
+                android:textSize="18sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/av_othon_gama_d_e_a_756_centro_88015_240"
+                android:textColor="#AAAAAA"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="10dp"
+                android:textSize="18sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Segunda a sexta-feira:8h as 18h"
+                android:layout_marginTop="8dp"
+                android:textColor="#AAAAAA"
+                android:layout_marginStart="10dp"
+                android:textSize="18sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sabados:"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/black"
+                android:layout_marginStart="10dp"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8h15 as 12h"
+                android:textColor="#AAAAAA"
+                android:layout_marginStart="10dp"
+                android:textSize="18sp"/>
+
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Blumenau"
+                android:layout_marginTop="50dp"
+                android:layout_marginStart="10dp"
+                android:textColor="@color/crysle_rred"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="Hemocentro Regional"
+                android:textColor="@color/crysler"
+                android:textSize="18sp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_margin="16dp"
+                android:src="@drawable/blumenau1_img"
+                android:contentDescription="@string/app_name"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Telefone"
+                android:textStyle="bold"
+                android:textColor="@color/crysle_rred"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(47)3222.9800"
+                android:textColor="#AAAAAA"
+                android:layout_marginStart="10dp"
+                android:textSize="18sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rua_theodoro_holtrup_40_vila_nova_89_035_300"
+                android:textColor="#AAAAAA"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="10dp"
+                android:textSize="18sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Segunda a sexta-feira:8h as 18h"
+                android:layout_marginTop="8dp"
+                android:textColor="#AAAAAA"
+                android:layout_marginStart="10dp"
+                android:textSize="18sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sabados:"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/black"
+                android:layout_marginStart="10dp"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8h as 11h"
+                android:textColor="#AAAAAA"
+                android:layout_marginStart="10dp"
+                android:textSize="18sp"/>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Joinville"
+                android:layout_marginTop="50dp"
+                android:layout_marginStart="10dp"
+                android:textColor="@color/crysle_rred"
+                android:textStyle="bold"
+                android:textSize="28sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="Hemocentro Regional"
+                android:textColor="@color/crysler"
+                android:textSize="18sp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_margin="16dp"
+                android:src="@drawable/joinville1_img"
+                android:contentDescription="@string/app_name"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Telefone"
+                android:textColor="@color/crysle_rred"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:textSize="18sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(47)3305.7500"
+                android:textColor="#AAAAAA"
+                android:layout_marginStart="10dp"
+                android:textSize="18sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Av. Getulio Vargas, 198 Anita Garibaldi- 89.202-000 "
+                android:textColor="#AAAAAA"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="10dp"
+                android:textSize="18sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Segunda a sexta-feira:7h30 as 17h45"
+                android:layout_marginTop="8dp"
+                android:textColor="#AAAAAA"
+                android:layout_marginStart="10dp"
+                android:textSize="18sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sabados:"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/black"
+                android:layout_marginStart="10dp"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7h as 11h"
+                android:textColor="#AAAAAA"
+                android:layout_marginStart="10dp"
+                android:textSize="18sp"/>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/chapec"
+                android:layout_marginTop="50dp"
+                android:textColor="@color/crysle_rred"
+                android:textStyle="bold"
+                android:textSize="28sp"
+                android:layout_marginStart="10dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="Hemocentro Regional"
+                android:textColor="@color/crysler"
+                android:textSize="18sp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_margin="16dp"
+                android:src="@drawable/chapeco1_img"
+                android:contentDescription="@string/app_name"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Telefone"
+                android:textColor="@color/crysle_rred"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:textSize="18sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(49)3700.6400"
+                android:textColor="#AAAAAA"
+                android:layout_marginStart="10dp"
+                android:textSize="18sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rua Sao Leopoldo,391 D Bairro Esplanada, 89.812-565 "
+                android:textColor="#AAAAAA"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="10dp"
+                android:textSize="18sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Segunda a sexta-feira:7h as 16h"
+                android:layout_marginTop="8dp"
+                android:textColor="#AAAAAA"
+                android:layout_marginStart="10dp"
+                android:textSize="18sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sabados:"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/black"
+                android:layout_marginStart="10dp"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8h as 16h"
+                android:textColor="#AAAAAA"
+                android:layout_marginStart="10dp"
+                android:textSize="18sp"/>
+        </LinearLayout>
+
+
+
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

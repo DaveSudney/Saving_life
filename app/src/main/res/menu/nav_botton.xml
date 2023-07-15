@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/home_ini"
+    android:icon="@drawable/baseline_home_24"
+    android:title="@string/Inicio" />
+<item
+    android:title="@string/compartilha"
+    android:id="@+id/share"
+    android:icon="@drawable/baseline_share_24"/>
+<item
+    android:title="@string/informa_"
+    android:id="@+id/info"
+    android:icon="@drawable/baseline_info_24"/>
+</menu>

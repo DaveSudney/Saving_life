@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/itemInicio"
+            android:icon="@drawable/baseline_home_24"
+            android:title="@string/inicio"/>
+
+        <item
+            android:id="@+id/itemLocal"
+            android:icon="@drawable/baseline_place_24"
+            android:title="@string/localiza_o_pr_xim"/>
+
+        <item
+            android:id="@+id/itemNoticias"
+            android:icon="@drawable/baseline_newspaper_24"
+            android:title="@string/not_cias"/>
+
+        <item
+            android:id="@+id/itemContato"
+            android:icon="@drawable/baseline_perm_phone_msg_24"
+            android:title="@string/Contatos"/>
+
+
+    </group>
+    <item android:title="@string/servi_os">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/itemEstoque"
+                    android:icon="@drawable/baseline_storage_24"
+                    android:title="@string/Estoque"/>
+                <item
+                    android:id="@+id/itemAgenda"
+                    android:icon="@drawable/baseline_access_time_filled_24"
+                    android:title="@string/agenda_doa_"/>
+                <item
+                    android:id="@+id/itemEvento"
+                    android:icon="@drawable/baseline_event_24"
+                    android:title="@string/Eventos"/>
+                <item
+                    android:id="@+id/itemGroupesanguineo"
+                    android:icon="@drawable/baseline_bloodtype_24"
+                    android:title="@string/grupo_sanguineo"/>
+                <item
+                    android:id="@+id/item8"
+
+                    android:title=""/>
+            </group>
+        </menu>
+    </item>
+    <item android:title="">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/itemSair"
+                    android:icon="@drawable/baseline_exit_to_app_24"
+                    android:title="@string/Sair"/>
+            </group>
+        </menu>
+    </item>
+</menu>
